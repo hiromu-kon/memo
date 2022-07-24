@@ -5,6 +5,8 @@
 そのためModalBottomSheetの上にSnackBarが表示されるように修正する。
 
 ### 修正前
+https://user-images.githubusercontent.com/74192993/178089708-ad105b48-0c29-4d30-9cf5-c2a35c655af4.mov
+
 ```dart
 class MyWidget extends StatelessWidget {
   @override
@@ -35,6 +37,8 @@ class MyWidget extends StatelessWidget {
 
 
 ### 修正後
+https://user-images.githubusercontent.com/74192993/178089633-1a5b24a2-166f-4d68-b7e3-e257d0149a98.mov
+
 ```dart
 class MyWidget extends StatelessWidget {
   @override
