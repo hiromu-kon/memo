@@ -126,7 +126,7 @@ export const Home = () => {
 /* src/components/pages/User.tsx */
 
 import { useRecoilValue } from "recoil";
-import { useState } from "../../recoil/atoms/userState";
+import { userState } from "../../recoil/atoms/userState";
 
 export const User = () => {
   const userInfo = useRecoilValue(userState);
@@ -141,7 +141,7 @@ export const User = () => {
 /* src/components/pages/Top.tsx */
 
 import { useSetRecoilState } from "recoil"
-import { useState } from "../../store/userState";
+import { userState } from "../../store/userState";
 
 export const Top = () => {
   const setUserInfo = useSetRecoilState(userState);
